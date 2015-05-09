@@ -1,7 +1,7 @@
 # Site settings
 title: SLANG Group
-email: nick@mapmeld.com
-description: Supported Languages Group - best practices and features for multilingual technology
+email: ndoiron@mapmeld.com
+description: Supported Languages Group - reference and best practices for multilingual technology
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://slang-group.github.io" # the base hostname & protocol for your site
 twitter_username: mapmeld

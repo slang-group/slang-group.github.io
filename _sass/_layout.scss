@@ -163,6 +163,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    &.api .post-content {
+      margin-left: 270px;
+    }
 }
 
 .page-heading {

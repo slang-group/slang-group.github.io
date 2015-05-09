@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content api">
+
+      <nav id='sidebar'>
+        {% include nav.html %}
+      </nav>
+
+      <article class="post-content">
+        {{ content }}
+      </article>
+    </div>
+  </body>
+</html>
