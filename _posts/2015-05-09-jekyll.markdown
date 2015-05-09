@@ -6,3 +6,13 @@ categories: static-sites
 ---
 
 Jekyll does not come with any internationalization tools. You will need to install a plugin.
+
+The most popular, currently-maintained plugin is the [Jekyll Multiple Languages Plugin](https://github.com/screeninteraction/jekyll-multiple-languages-plugin).
+
+It is an open source program with the Mozilla Public License.
+
+## Installing
+
+In your project directory, run this command:
+
+```git submodule add git://github.com/screeninteraction/jekyll-multiple-languages-plugin.git _plugins/multiple-languages```
