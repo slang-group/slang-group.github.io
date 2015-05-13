@@ -1,0 +1,79 @@
+---
+layout: api
+title:  Rails
+date:   2015-05-09 20:29:10
+categories: servers
+---
+
+Rails has an internationalization system built into it.
+
+Your best source is [the official docs](http://guides.rubyonrails.org/i18n.html),
+but we describe it here, too.
+
+### The View
+
+You should have some text in your view, whether it's HAML or ERB or another format.
+
+```
+%p Hello world
+```
+
+In your view, use the ```I18n.t``` method (short for I18n.translate) to mark phrases
+or keys which should be translated:
+
+```
+%p= I18n.t(:hello_world)
+```
+
+### The Config Files
+
+Rails is looking up your keys in ```config/locales/en.yml```
+
+You can make a simple English YAML file like this:
+
+```
+en:
+  hello_world: "Hello world"
+  good_bye: "good bye"
+```
+
+You can make another language file, such as ```config/locales/es.yml```, looking like this:
+
+```
+es:
+  hello_world: "Hola mundo"
+  good_bye: "adios"
+```
+
+The application will use the value in the English form, unless you set another default language:
+
+```I18n.default_locale = :es```
+
+**Interpolation**
+
+For the greeting "Your name is Nick" your first instinct might be to write this code:
+
+```greeting = I18n.t(:your_name_is) + user.name   # not good```
+
+```
+en:
+  your_name_is: 'Your name is '
+```
+
+In many languages, the order of the subject, verb, and object in a sentence differs from the order in English.
+To translate phrases and sentences, it's necessary for you to pass the original phrase and the value
+to I18n:
+
+```greeting = I18n.t(:your_name_is, name: user.name)```
+
+```
+en:
+  your_name_is: "Your name is %{name}"
+```
+
+**Plurals**
+
+### The Controller
+
+To set the language, you can review the Rails reference for using URL parameters,
+subdomains, and other hints to set the language.

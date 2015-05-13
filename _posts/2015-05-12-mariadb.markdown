@@ -1,0 +1,10 @@
+---
+layout: api
+title:  MariaDB
+date:   2015-05-12 23:54:10
+categories: databases
+---
+
+In MariaDB 5.5+, you can use the encoding utf8mb4
+
+https://mariadb.com/kb/en/mariadb/unicode/

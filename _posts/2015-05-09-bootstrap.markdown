@@ -16,13 +16,14 @@ across different languages and scripts.
 You can make use of the GitHub Pages CDN and include Bootstrap-Noto in your HTML like this:
 
 ```
-<link rel="stylesheet" href=""/>
+<link rel="stylesheet" href="http://slang-group.github.io/bootstrap-noto/dist/bootstrap-noto.min.css"/>
 ```
+
+You could also download that CSS file and host it yourself.
 
 ## Bootstrap-3
 
-Bootstrap versions 3.x currently still do not support languages which are written
-from right-to-left.
+Bootstrap versions 3.x still does not support languages which are written from right-to-left.
 
 Some popular forks are:
 

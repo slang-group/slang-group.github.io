@@ -1,0 +1,9 @@
+---
+layout: api
+title:  MySQL
+date:   2015-05-12 23:52:10
+categories: databases
+---
+
+[https://mathiasbynens.be/notes/mysql-utf8mb4](This blog post) explains pretty well
+how to create columns and upgrade existing tables using the encoding utf8mb4.
