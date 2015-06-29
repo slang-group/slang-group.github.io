@@ -1,0 +1,23 @@
+---
+layout: languages
+title:  Myanmar (Burmese)
+date:   2015-06-28 23:52:10
+categories: languages
+---
+
+Myanmar (Burmese) has its own script and is Unicode-supported.
+
+Many people use a non-Unicode-compliant font called Zawgyi to enter data into systems.
+Fortunately, there are several scripts to detect and convert Zawgyi text into Unicode.
+
+## Open Fonts
+
+## Checking accuracy
+
+Some diacritics appear on the left of the character that they modify. You should see the capital of Myanmar, နေပြည်တော် start with a diacritic ေ which looks like the number 6. It should not place the န first.
+
+Text text omg this does not make sense this does not make sense နေပြည်တော် jygh 
+
+## Detecting non-Unicode input
+
+## Converting to and from Unicode

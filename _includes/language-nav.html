@@ -1,6 +1,6 @@
 <ul id='links'>
   {% for category in site.categories %}
-    {% if category.first != 'meta' and category.first != 'languages' %}
+    {% if category.first == 'languages' %}
       <li><h2>{{ category | first }}</h2>
         <ul>
         {% for posts in category %}
