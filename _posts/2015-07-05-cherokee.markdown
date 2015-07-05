@@ -1,0 +1,16 @@
+---
+layout: languages
+title:  Cherokee
+date:   2015-07-05 13:52:10
+categories: languages
+---
+
+Cherokee has its own syllabary, which is included in Unicode.
+
+## Fonts
+
+Windows machines ship with a Cherokee font, but it displays the
+__ character upside-down. iOS includes a Cherokee font, but Android does not.
+
+Consider using a web font, either from Google Noto or the Cherokee Nation, for a
+unified experience on all devices.

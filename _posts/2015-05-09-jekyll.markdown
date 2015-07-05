@@ -11,6 +11,10 @@ The most popular, currently-maintained plugin is the [Jekyll Multiple Languages 
 
 It is an open source program with the Mozilla Public License.
 
+## Use with GitHub Pages
+
+These plugins are not compatible with the GitHub Pages implementation of Jekyll.
+
 ## Installing
 
 In your project directory, run this command:

@@ -12,12 +12,26 @@ Fortunately, there are several scripts to detect and convert Zawgyi text into Un
 
 ## Open Fonts
 
+This Google Code page contains several fonts including both Unicode-compatible and Zawgyi
+Myanmar text.
+
+Google Noto contains a font for Unicode-compatible Myanmar text.
+
 ## Checking accuracy
 
 Some diacritics appear on the left of the character that they modify. You should see the capital of Myanmar, နေပြည်တော် start with a diacritic ေ which looks like the number 6. It should not place the န first.
 
-Text text omg this does not make sense this does not make sense နေပြည်တော် jygh 
-
 ## Detecting non-Unicode input
 
+The knayi-myscript module for NodeJS can detect most Zawgyi text.
+
+The knayi-cli command line tool, based on knayi-myscript and NodeJS, can be used to convert
+Zawgyi text to Unicode. Any Unicode-compatible text is left unchanged.
+
 ## Converting to and from Unicode
+
+There are solutions available to convert between the two text formats in many different languages.
+
+**NodeJS**
+
+**PHP**

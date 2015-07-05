@@ -8,9 +8,9 @@ categories: languages
 The modern Mongolian alphabet uses the Cyrillic alphabet. Traditional Mongolian
 uses its own script, written vertically top-to-bottom.
 
-## Rendering on the Web
+## Vertical Writing on the Web
 
-Traditional Mongolian text should be written vertically. Two CSS properties
+Traditional Mongolian text should be written vertically, top-to-bottom. Two CSS properties
 should be used, though they are not supported in all browsers:
 
 You could also use a CSS transform to rotate a left-to-right block 90 degrees.

@@ -1,0 +1,25 @@
+---
+layout: languages
+title:  Chinese
+date:   2015-07-05 18:52:10
+categories: languages
+---
+
+Modern Chinese writing consists of thousands of *kanji* characters, all supported
+by Unicode.
+
+## CJK characters and fonts
+
+When using CJK characters (Chinese, Japanese, or Korean) it is important to use a
+Chinese font. The same character will appear slightly differently in each language.
+
+## Vertical Writing on the Web
+
+Although this is no longer common, Chinese can be written vertically, top-to-bottom.
+Two CSS properties should be used, though they are not supported in all browsers:
+
+## Ancient Chinese text
+
+Many more *kanji* characters have been used throughout China's history. Many of these
+characters have been added to Unicode, to digitize historical documents. You can
+search the Unicode spec to find several blocks of historical Chinese kanji.

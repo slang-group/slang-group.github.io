@@ -5,5 +5,8 @@ date:   2015-05-12 23:52:10
 categories: databases
 ---
 
+To support all Unicode characters in MySQL VARCHAR columns, set the encoding to
+utf8mb4.
+
 [https://mathiasbynens.be/notes/mysql-utf8mb4](This blog post) explains pretty well
-how to create columns and upgrade existing tables using the encoding utf8mb4.
+how to create columns and upgrade existing tables using this encoding.

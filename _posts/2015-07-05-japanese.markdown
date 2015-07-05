@@ -1,0 +1,24 @@
+---
+layout: languages
+title:  Japanese
+date:   2015-07-05 17:52:10
+categories: languages
+---
+
+Modern Japanese writing consists of several dozen *hiragana* and *katakana* characters,
+as well as over two thousand *kanji* characters.
+
+## CJK characters and fonts
+
+When using CJK characters (Chinese, Japanese, or Korean) it is important to use a
+Japanese font. The same character will appear slightly differently in each language.
+
+## Vertical Writing on the Web
+
+Although this is no longer common, Japanese can be written vertically, top-to-bottom.
+Two CSS properties should be used, though they are not supported in all browsers:
+
+## Alternate encodings
+
+Due to the issues caused by Unicode and CJK characters, many people prefer to write
+Japanese in other encodings.

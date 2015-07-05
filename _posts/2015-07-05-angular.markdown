@@ -1,0 +1,12 @@
+---
+layout: api
+title:  AngularJS
+date:   2015-07-05 10:09:10
+categories: frontend
+---
+
+The AngularJS framework has an angular-translate plugin, which supports multiple languages.
+
+## Install
+
+## Usage

@@ -1,0 +1,19 @@
+---
+layout: languages
+title:  Korean
+date:   2015-07-05 16:52:10
+categories: languages
+---
+
+Modern Korean writing consists of several dozen *hangul* characters,
+as well as thousands of *kanji* characters.
+
+## CJK characters and fonts
+
+When using CJK characters (Chinese, Japanese, or Korean) it is important to use a
+Korean font. The same character will appear slightly differently in each language.
+
+## North Korean encoding
+
+North Korea is believed to use a separate text encoding. Although they have applied
+to have it supported by Unicode, they have not been successful.

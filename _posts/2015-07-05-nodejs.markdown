@@ -1,0 +1,12 @@
+---
+layout: api
+title:  NodeJS
+date:   2015-07-05 21:29:10
+categories: servers
+---
+
+Although there is no one built-in solution, there are several packages available for NodeJS which add internationalization support.
+
+**Options**
+
+* Polyglot from Airbnb

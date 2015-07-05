@@ -1,0 +1,11 @@
+---
+layout: api
+title:  Django
+date:   2015-07-05 20:29:10
+categories: servers
+---
+
+Django has an internationalization system built into it.
+
+Your best source is [the official docs](#),
+but we describe it here, too.

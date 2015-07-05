@@ -73,6 +73,17 @@ en:
 
 **Plurals**
 
+In many languages, plurals work differently from English. For example, we would say
+"there are zero apples" but other languages may use the singular, "apple" for both one
+and zero.
+
+```apple_count = I18n.t(:apple_count, number: apples.count)```
+
+```
+en:
+  apple_count: "You have #{number} #{apple|apples}."
+```
+
 ### The Controller
 
 To set the language, you can review the Rails reference for using URL parameters,
