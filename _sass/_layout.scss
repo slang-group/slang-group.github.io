@@ -21,6 +21,10 @@
     &:visited {
         color: $grey-color-dark;
     }
+
+    img {
+      max-height: 56px;
+    }
 }
 
 .site-nav {

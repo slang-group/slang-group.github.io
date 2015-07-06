@@ -1,0 +1,30 @@
+---
+layout: api
+title:  Canvas
+date:   2015-07-05 12:23:11
+categories: frontend
+---
+
+The HTML5 Canvas element can be used to render text. Here are some pointers for supporting multilingual text in Canvas.
+
+### Fonts
+
+Canvas can only support characters which are available on the user's computer. You should include
+and use web fonts to maximize language support.
+
+### Text Width and Height
+
+When working with non-monospaced fonts, or with diacritic/accent characters, it is difficult
+to estimate the width of a string of text only from the number of characters.
+
+Use Canvas's built-in method, ctx.measureText("string") to measure width and height of the text
+that you are about to print.
+
+### Right-to-Left Text
+
+When you use fillText with right-to-left text, [put the cursor at the rightmost part of the line and use &lt;canvas dir="rtl"&gt;&lt;/canvas&gt;](http://stackoverflow.com/questions/8961636/html5-canvas-filltext-with-right-to-left-string).
+
+### Vertical Text
+
+Vertical text is not natively supported in Canvas. Use the ctx.measureText method to go
+character-by-character through a string, keeping in place for diacritics/accents.

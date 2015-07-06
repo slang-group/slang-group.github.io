@@ -5,8 +5,15 @@ date:   2015-07-05 10:09:10
 categories: frontend
 ---
 
-The AngularJS framework has an angular-translate plugin, which supports multiple languages.
+The AngularJS framework has an [angular-translate module](https://angular-translate.github.io/),
+which supports multiple languages.
 
 ## Install
+
+Install angular-translate using the Bower dependency manager.
+
+<code>bower install angular-translate</code>
+
+Follow [instructions from the official documentation](http://angular-translate.github.io/docs/#/guide) to include it in your app.
 
 ## Usage

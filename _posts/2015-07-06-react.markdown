@@ -1,0 +1,22 @@
+---
+layout: api
+title:  React
+date:   2015-07-06 10:09:10
+categories: frontend
+---
+
+[React Intl](http://formatjs.io/react/) is a component for translating React apps for the web.
+
+[React Native currently uses a different core](https://github.com/yahoo/react-intl/issues/119) and cannot support React Intl. Use [React Native Localization](https://github.com/stefalda/ReactNativeLocalization) from Stefano Falda, or
+[React Native i18n](https://github.com/AlexanderZaytsev/react-native-i18n) from Alexander
+Zaytsev.
+
+## Install
+
+Install React Intl using npm:
+
+<code>npm install react-intl</code>
+
+## Usage
+
+Plurals and other features are described [on the project page](http://formatjs.io/react/).

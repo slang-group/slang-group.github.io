@@ -7,5 +7,5 @@ categories: databases
 
 MongoDB supports Unicode characters.
 
-Many MongoDB drivers don't expect UTF-8 values in MongoDB to include 4-byte encoded
-characters (newer additions to Unicode, including Emoji).
+Some MongoDB drivers might not expect responses from the database to include 4-byte encoded
+characters (newer additions to Unicode, including Emoji). Test these on a case-by-case basis.

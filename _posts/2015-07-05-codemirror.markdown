@@ -11,3 +11,5 @@ The latest versions of the CodeMirror library support right-to-left text. Highli
 and editing text is still 'glitchy' in scripts with diacritics.
 
 Bugs in CodeMirror also affect: Atom editor.
+
+<a href='https://github.com/atom/atom/issues/1849'>Read more about this bug</a>.

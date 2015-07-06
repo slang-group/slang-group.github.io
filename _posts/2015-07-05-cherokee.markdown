@@ -5,12 +5,11 @@ date:   2015-07-05 13:52:10
 categories: languages
 ---
 
-Cherokee has its own syllabary, which is included in Unicode.
+The Cherokee language has its own syllabary characters, which are included in Unicode.
 
 ## Fonts
 
-Windows machines ship with a Cherokee font, but it displays the
-__ character upside-down. iOS includes a Cherokee font, but Android does not.
+Many Windows and Mac machines ship with a Cherokee font named Plantagenet, but it <a href="http://www.languagegeek.com/rotinonhsonni/tsalagi/do.html">displays the character Ꮩ as it appeared historically</a>. This is "upside-down" from how it should appear in modern Cherokee text. iOS includes a Cherokee font, but Android does not.
 
-Consider using a web font, either from Google Noto or the Cherokee Nation, for a
+Consider using a web font, either from Google Noto or Digohweli from the Cherokee Nation, for a
 unified experience on all devices.

@@ -7,7 +7,7 @@ categories: meta
 
 Written language on the web is being shaped by two forces: the growing number of
 participants from around the world adding their own voices, and the social and
-technical limits of the web to supporting their languages.
+technical limits of the web to support their languages.
 
 <!--break-->
 
