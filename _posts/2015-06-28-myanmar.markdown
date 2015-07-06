@@ -23,15 +23,44 @@ Some diacritics appear on the left of the character that they modify. You should
 
 ## Detecting non-Unicode input
 
-The knayi-myscript module for NodeJS can detect most Zawgyi text.
-
-The knayi-cli command line tool, based on knayi-myscript and NodeJS, can be used to convert
-Zawgyi text to Unicode. Any Unicode-compatible text is left unchanged.
+The knayi-myscript module for NodeJS can detect most Zawgyi text. It's easier to detect Zawgyi
+when there is a larger string of text.
 
 ## Converting to and from Unicode
 
-There are solutions available to convert between the two text formats in many different languages.
+There are solutions available to convert between the two text formats.
+The most common and up-to-date package is usually [Rabbit Converter](https://github.com/Rabbit-Converter), which is available in many programming
+languages.
 
 **NodeJS**
 
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Node) is available as the 'rabbit-node' module.
+
+[knayi-myscript](https://github.com/Rabbit-Converter/Rabbit-Node) is a Node module which can detect and convert between Unicode and Zawgyi.
+
+The [knayi-cli command line tool](https://github.com/mapmeld/knayi-cli), based on knayi-myscript, can be used to convert Zawgyi text files to Unicode. Any Unicode-compatible text is left unchanged.
+
 **PHP**
+
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-PHP) for PHP is the most
+up-to-date of several PHP libraries.
+
+**iOS**
+
+[Unicode Zawgyi Converter](https://github.com/saturngod/Unicode-Zawgyi-Converter) for iOS and Mac OSX
+
+**Swift**
+
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Swift) for Swift.
+
+**Objective C**
+
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Objc) for Objective C.
+
+**Ruby**
+
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Ruby) is available as the 'rabbit-mm' gem.
+
+**Elixir**
+
+[Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Elixir) by Arkar Aung.

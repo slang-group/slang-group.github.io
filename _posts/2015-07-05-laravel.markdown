@@ -5,4 +5,8 @@ date:   2015-07-05 22:29:10
 categories: servers
 ---
 
-PHP's Laravel framework 
+PHP's Laravel framework comes with a [localization package](http://laravel.com/docs/5.1/localization) which supports translations and
+plurals.
+
+Marc Cámara produces [laravel-localization](https://github.com/mcamara/laravel-localization),
+a popular tool to assist with translations. It supports Laravel versions 4.0 and higher.

@@ -9,4 +9,5 @@ Although there is no one built-in solution, there are several packages available
 
 **Options**
 
-* Polyglot from Airbnb
+* [i18n-node](https://github.com/mashpie/i18n-node) from Marcus Spiegel
+* [Polyglot.js](http://airbnb.io/polyglot.js/) from Airbnb
