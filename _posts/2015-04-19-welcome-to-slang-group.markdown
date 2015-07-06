@@ -6,20 +6,19 @@ categories: meta
 ---
 
 Written language on the web is being shaped by two forces: the growing number of
-participants from around the world adding their own voices, and the social and
+participating voices from around the world, and the social and
 technical limits of the web to support their languages.
 
 <!--break-->
 
-In most cases this is not malicious: languages are forgotten, localization and
+These limits are rarely set up on purpose - languages are forgotten, localization and
 internationalization are put aside for later, intricacies of database settings
-go untaught and unremembered. As a programmer I know how difficult it is to
+go untaught. As a programmer I know how difficult it is to
 modify a monolingual website or app for many languages. Even building your app
-from the start with these factors in mind takes a great deal of effort, especially
-when you consider right-to-left support, multiple fonts, pluralization, names,
-etc.
+from the start with these factors in mind can take a great deal of effort, especially
+when you consider right-to-left support, multiple fonts, pluralization, and names.
 
-SLANG Group is an experimental reference for the multilingual web. Developers,
+SLANG Group is an open reference for the multilingual web. Developers,
 designers, and interested learners should be able to look up their favorite tools
 and find a reference and best practices to maximize language support. What data type
 should I use in MySQL? How do I render map tiles in Cherokee script? Piece by piece, the
