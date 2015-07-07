@@ -9,8 +9,25 @@ Python 2 and Python 3 handle Unicode text differently.
 
 For the Django platform, see <a href="/servers/2015/07/06/django.html">the Django page</a>.
 
-## Most Compatible Solution
+## Most Compatiblity
+
+In any Python file where you are writing unescaped Unicode characters (for example, 木 instead of \\u6728), place
+this comment at the very beginning of the file:
+
+```
+# -*- coding: utf-8 -*-
+```
+
+When you are writing escaped Unicode charactes (for example, \\u6728), place a u in front of the string's double quotes:
+
+```
+message = u"\u6728\u430b"
+```
 
 ## Python 2
 
+See more examples on the [Python 2 Unicode HOWTO](https://docs.python.org/2/howto/unicode.html).
+
 ## Python 3
+
+See more examples on the [Python 3 Unicode HOWTO](https://docs.python.org/3/howto/unicode.html).
