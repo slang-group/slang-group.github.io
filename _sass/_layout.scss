@@ -90,7 +90,21 @@
     }
 }
 
+button.bigbtn {
+  display: inline-block;
+  border: 2px solid #040;
+  border-radius: 10px;
+  padding: 18px 35px;
+  background: rgb(0, 164, 136);
+  color: #fff;
+  font-size: 16pt;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
 
+a {
+  color: rgb(0, 164, 136);
+}
 
 /**
  * Site footer
