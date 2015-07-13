@@ -7,7 +7,7 @@ categories: programming
 
 Python 2 and Python 3 handle Unicode text differently.
 
-For the Django platform, see <a href="/servers/2015/07/06/django.html">the Django page</a>.
+For the Django platform, see [the Django page](/servers/2015/07/05/django.html).
 
 ## Most Compatiblity
 

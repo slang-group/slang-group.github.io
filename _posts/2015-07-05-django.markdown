@@ -9,4 +9,4 @@ Django has an internationalization system built into it.
 
 Your best source is [the official docs](https://docs.djangoproject.com/en/1.8/topics/i18n/).
 
-For general information on Python, see <a href="/programming/2015/07/06/python.html">the Python page</a>.
+For general information on Python, see [the Python page](/programming/2015/07/05/python.html).
