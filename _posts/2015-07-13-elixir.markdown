@@ -1,0 +1,74 @@
+---
+layout: api
+title:  Elixir
+date:   2015-07-13 10:29:10
+categories: programming
+---
+
+Add the [linguist](https://github.com/chrismccord/linguist) library from
+Chris McCord for internationalization in Elixir language or the Phoenix framework.
+
+## Usage
+
+Create a .exs file for each language, defining a list of nested translations.
+Here's one you could use for English:
+
+<code>
+[<br/>
+&nbsp;&nbsp;greetings: [<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;morning: "Good Morning",<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;afternoon: "Good Afternoon"<br/>
+&nbsp;&nbsp;]<br/>
+]<br/>
+</code>
+
+In your code module:
+
+<code>
+defmodule I18n do<br/>
+&nbsp;&nbsp;# import the linguist module<br/>
+&nbsp;&nbsp;use Linguist.Vocabulary<br/>
+<br/>
+&nbsp;&nbsp;# load each language's .exs file
+&nbsp;&nbsp;locale "en", Path.join([__DIR__, "en.exs"])<br/>
+end<br/>
+<br/>
+# use the translation<br/>
+I18n.t!("en", "greetings.morning")<br/>
+</code>
+
+## Interpolation
+
+The documentation on that page shows how to make translations with
+interpolation (including values and names in the translated text).
+
+<code>
+[<br/>
+&nbsp;&nbsp;greetings: [<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;morning: "Good morning, %{name}!"<br/>
+&nbsp;&nbsp;]<br/>
+]
+</code>
+
+And in your source code:
+
+<code>
+defmodule I18n<br/>
+&nbsp;&nbsp;use Linguist.Vocabulary<br/>
+<br/>
+&nbsp;&nbsp;locale "en", Path.join([__DIR__, "en.exs"])<br/>
+end<br/>
+<br/>
+I18n.t!("en", "greetings.morning", name: "Dave")
+</code>
+
+## Upgrading from Phoneix <= 0.6.x
+
+In December 2014, Phonenix 0.7.x removed linguist as a default dependency. You need to
+[include linguist as a dependency](https://gist.github.com/chrismccord/c24b2b516066d987f4fe).
+
+## Unsupported
+
+The linguist library does not currently support multilingual plurals.
+
+[Follow this issue](https://github.com/chrismccord/linguist/issues/9) on GitHub.
