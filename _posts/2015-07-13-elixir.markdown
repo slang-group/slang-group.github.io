@@ -65,7 +65,7 @@ I18n.t!("en", "greetings.morning", name: "Dave")
 ## Upgrading from Phoneix <= 0.6.x
 
 In December 2014, Phonenix 0.7.x removed linguist as a default dependency. You need to
-[include linguist as a dependency](https://gist.github.com/chrismccord/c24b2b516066d987f4fe).
+[include linguist as a dependency for your app](https://gist.github.com/chrismccord/c24b2b516066d987f4fe).
 
 ## Unsupported
 

@@ -5,7 +5,7 @@ date:   2015-07-13 11:29:10
 categories: servers
 ---
 
-For Phoneix 0.7.x and higher, you need to add the [linguist](https://github.com/chrismccord/linguist)
-library from Chris McCord for internationalization in the Phoenix framework.
+For Phoenix 0.7.x and higher, you need to manually add the [linguist](https://github.com/chrismccord/linguist)
+library from Chris McCord for internationalization.
 
-See more on the page for [Elixir](/programming/2015/07/13/elixir.html).
+See more on the page for the [Elixir](/programming/2015/07/13/elixir.html) language.

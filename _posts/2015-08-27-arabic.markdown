@@ -1,0 +1,41 @@
+---
+layout: languages
+title:  Arabic
+date:   2015-08-27 14:49:10
+categories: languages
+---
+
+Arabic is the most widely-spoken and used language which is written from right to
+left. Text in Arabic begins on the right side of the page, continues leftward,
+and then continues on the line below.
+
+## What does right-to-left design look like?
+
+Typically websites that support right-to-left languages also have a right-to-left
+design. On English versions of Wikipedia, the main logo, nav links, and language
+lists appear on the left side of the page. On the Arabic version, these appear on
+the right side of the page, where they will be seen first. The title of the article
+is right-aligned to start on the right edge of the page.
+
+## How can I set my page to support right-to-left?
+
+To allow flexible web design, you can fix most right-to-left issues by adding the property dir="rtl" or dir="auto" on most sections. If you expect all of your content to be in a right-to-left language, you can add this to the html or body tag.
+
+You can resolve remaining issues (for example, switching between margin-left and
+  margin-right) by adding sections to a CSS stylesheet.
+
+```css
+.hover-button {
+  margin-left: 100px;
+}
+body[dir="rtl"] .hover-button {
+  margin-left: 0;
+  margin-right: 100px;
+}
+```
+
+## Social Media Standards
+
+Research social media to see how posts typically look in right-to-left.
+For example, an Arabic-language hashtag string begins with a hashtag, but renders
+with the hashtag on the right of the word.

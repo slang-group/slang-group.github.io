@@ -1,0 +1,24 @@
+---
+layout: api
+title:  Maps
+date:   2015-08-27 14:44:11
+categories: frontend
+---
+
+You can internationalize your maps in several different mapping frameworks.
+
+## Google Maps API
+
+Using the right language settings with the Google Maps API allows your users to see map labels and directions in their own language.
+
+## MapBox Studio / TileMill
+
+If your users might not have the right fonts to see your map labels, you can use a
+tile service like MapBox Studio / TileMill to generate image tiles.
+
+First, install the right language font on your computer.
+
+## MapBoxGL
+
+Labels in MapBoxGL are rendered as text by the browser. The user may need a
+web font installed to show your labels.

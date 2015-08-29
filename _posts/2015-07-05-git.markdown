@@ -12,5 +12,4 @@ Git does not support right-to-left text in commit messages.
 
 ## GitHub
 
-GitHub is a website based on the git version control system. GitHub supports only ASCII
-in project names. As with git, right-to-left text cannot be used in commit messages.
+GitHub is a website based on the git version control system. GitHub supports only ASCII in project names. As with git, right-to-left text cannot be used in commit messages.

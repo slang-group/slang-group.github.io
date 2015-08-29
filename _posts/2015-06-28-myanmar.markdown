@@ -23,8 +23,7 @@ Some diacritics appear on the left of the character that they modify. You should
 
 ## Detecting non-Unicode input
 
-The knayi-myscript module for NodeJS can detect most Zawgyi text. It's easier to detect Zawgyi
-when there is a larger string of text.
+The knayi-myscript module for NodeJS can detect most Zawgyi text. It's easier to detect Zawgyi when there is a larger string of text.
 
 ## Converting to and from Unicode
 
@@ -64,3 +63,15 @@ up-to-date of several PHP libraries.
 **Elixir**
 
 [Rabbit Converter](https://github.com/Rabbit-Converter/Rabbit-Elixir) by Arkar Aung.
+
+## Sorting Myanmar text
+
+Depending on your programming language, you may need a collator library to sort text according to Myanmar language rules.
+
+In JavaScript, you can use the myanmar-names-js library to sort a list of words or
+names (ignoring common prefixes, to sort by name).
+
+## Numbers
+
+In JavaScript, you can use the myanmar-numbers-js library to convert between Arabic
+numerals, Myanmar numerals, and numerals used in Shan state.

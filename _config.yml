@@ -1,11 +1,11 @@
 # Site settings
 title: SLANG Group
 email: ndoiron@mapmeld.com
-description: Supported Languages Group - reference and best practices for multilingual technology
+description: Supported Languages Group - open reference for the multilingual web
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://slang-group.github.io" # the base hostname & protocol for your site
+url: "http://slanggroup.org" # the base hostname & protocol for your site
 twitter_username: mapmeld
-github_username:  slang-group
+github_username: slang-group
 
 # Build settings
 markdown: kramdown
