@@ -2,13 +2,24 @@
 layout: default
 ---
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5&appId=123994207657251";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <div class="home bigger">
-  <h2>Yes, да, 是, <span class="sinhala">ඔව්</span>, نعم...</h2>
-  <h1>I support a multilingual web.</h1>
-  <p>SLANGgroup.org: {i18n reference for coders}</p>
-  <a href="#">Tweet</a>
-  <a href="#">Share</a>
-  <a href="#">Subscribe</a>
+  <h2>Today, сегодня, 今日, ఈరోజు, اليوم</h2>
+  <h1>Join and support a multilingual web.</h1>
+  <p>SLANGgroup.org: {i18n reference for all coders}</p>
+  <div class="fb-share-button" data-href="http://slanggroup.org" data-layout="button"></div>
+  <a href="https://twitter.com/share" class="twitter-share-button" data-text="Today, сегодня, 今日, ఈరోజు, اليوم - join SLANGgroup: {i18n reference for all coders}" data-via="SlangGroup" data-count="none" data-hashtags="i18n">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+  <a href="https://twitter.com/SlangGroup" class="twitter-follow-button" data-show-count="false">Follow @SlangGroup</a>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
   <hr/>
 
   <p>The code that programmers write to make the web can support the world's languages. Let's make a reference explaining how and why.</p>
