@@ -4,7 +4,7 @@ email: ndoiron@mapmeld.com
 description: Supported Languages Group - open reference for the multilingual web
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://slanggroup.org" # the base hostname & protocol for your site
-twitter_username: mapmeld
+twitter_username: SlangGroup
 github_username: slang-group
 
 # Build settings
